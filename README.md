@@ -20,8 +20,8 @@ In the fitness world, there are lots of different ways a workout can be timed. F
 ## Common Props and Functionality
 Although each timer receives some props specific to that mode, there are some props that all timers should receive:
 
-`onStart`: a function that is called when the timer is started
-`onFinish`: a function that is called when the timer is done
+`onStart`: a function that is called when the timer is started  
+`onFinish`: a function that is called when the timer is done:
 - TABATA and XY when all rounds are done
 - Countdown: when the timer reaches 0
 - Stopwatch: when the time cap is reached
