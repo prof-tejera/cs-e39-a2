@@ -1,17 +1,25 @@
 import React from 'react';
 
-export const Stopwatch = () => {
-  return <div>Stopwatch implementation</div>;
-};
+export class Stopwatch extends React.Component {
+  render() {
+    return <div>Stopwatch implementation</div>;
+  }
+}
 
-export const Countdown = () => {
-  return <div>Countdown implementation</div>;
-};
+export class Countdown extends React.Component {
+  render() {
+    return <div>Countdown implementation</div>;
+  }
+}
 
-export const XY = () => {
-  return <div>XY implementation</div>;
-};
+export class XY extends React.Component {
+  render() {
+    return <div>XY implementation</div>;
+  }
+}
 
-export const Tabata = () => {
-  return <div>Tabata implementation</div>;
-};
+export class Tabata extends React.Component {
+  render() {
+    return <div>Tabata implementation</div>;
+  }
+}
